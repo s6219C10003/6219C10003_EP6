@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+        #show_result{
+            color: red;
+            font-size: 50px;
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 style="text-decoration: underline;">Learn JS 08</h1>
+    <h2 style="text-align: center;">ผลการเรียน</h2>
+    <table width="500" border="1" align="center">
+        <tr>
+            <td width="150" style="text-align: right;">
+                คะแนนกลางภาค
+            </td>
+            <td>
+                <input type="text" name="" id="tx_midterm"> คะแนน
+            </td>
+        </tr>
+
+        <tr>
+            <td width="150" style="text-align: right;">
+                คะแนนกลางปลายภาค
+            </td>
+            <td>
+                <input type="text" name="" id="tx_final"> คะแนน
+            </td>
+        </tr>
+
+        <tr>
+            <td width="150" style="text-align: right;">
+                คะแนนเก็บ
+            </td>
+            <td>
+                <input type="text" name="" id="tx_quiz"> คะแนน
+            </td>
+        </tr>
+
+        <tr>
+            <td width="150" style="text-align: right;">
+                
+            </td>
+            <td>
+                <button id="bt_cal">คำนวณ</button>
+                <button id="bt_cancel">ยกเลิก</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="150" style="text-align: right;">
+                คะแนนรวม
+            </td>
+            <td>
+                <span id="show_sum_score">
+                    0
+                </span>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="150" style="text-align: right;">
+                เกรดที่ได้
+            </td>
+            <td>
+                <span id="show_grade">
+                    ?
+                </span>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+    <script src="./js/testscript8.js"></script>
+</body>
+
+</html>
